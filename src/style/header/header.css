@@ -1,0 +1,50 @@
+.header__menu a{
+color: #FF6060;
+font-weight: 500;
+font-size: 24px;
+
+}
+.header__menu span{
+    margin-right: 57px;
+}
+
+.activated{
+    text-decoration: underline;
+}
+
+nav {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+}
+header{
+    margin-top: 35px;
+    flex-wrap:nowrap;
+}
+@media all and (max-width:950px){
+    nav {
+    margin-right: 0px;
+   }
+
+@media all and (max-width:764px){
+    .header__menu span{
+        margin-right: 10px;
+    }
+  .header__menu a{
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 0px;
+    text-transform: uppercase;
+   } header{
+    margin-top: 20px;
+   }
+   .header__logo{
+    Width:145px;
+    Height:47px;
+    margin-right: 20px;
+   }
+}
+  
+}

@@ -1,0 +1,46 @@
+.banner__img{
+    height: 223px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 50px; 
+    width: 100%;
+    filter: brightness(70%);
+    border-radius: 25px;
+}
+.banner {display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{display: flex;
+    margin-top: 100px;
+font-weight: 500;
+font-size: 48px;
+line-height: 142.6%;
+position: absolute;
+color: #FFFFFF;
+}
+
+@media all and (max-width:900px){
+.banner h1{
+    margin-top: 30px;
+font-size: 24px;
+line-height: 100%;
+}
+.banner__img{
+    margin-top:16px;;
+    border-radius: 10px;
+    height: 111px;
+}
+.banner{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media all and (max-width:420px){
+    .banner h1{
+        position: absolute;
+    left: 9.6%;
+    right: 32.5%;
+    top: 83px;
+    }
+}
