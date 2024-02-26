@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/index.css';
 import {BrowserRouter} from "react-router-dom"; //importing react router
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals';// perf
 import Routing from './router/router'; //import routing logic
 
 

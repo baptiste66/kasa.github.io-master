@@ -10,13 +10,12 @@ import '../style/pages/home.css';
 function Routing(){
     return(
         <div>
-           
             <Routes>
-            <Route path='/' element={<Navigate to="/home" />} />
+                <Route path='/' element={<Navigate to="/home" />} />
                 <Route path='/home' element={<Home />} />
-                <Route path='*' element={<Error />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/logement/:id'element={<Logement />}/>
+                <Route path='*' element={<Error />} />
             </Routes>
             
         </div>
