@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-export default function Card (){ const navigate = useNavigate();
+export default function Card() {
+  const navigate = useNavigate();
 
   const handleCardClick = (id) => {
     // Checks if the id matches a slot in the data list
